@@ -1,0 +1,551 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Anime Ace v05";
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+
+    background: transparent;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #FD1919;
+}
+
+body {
+    background-color: #FD1919;
+    margin: 0;
+    padding: 0;
+    font-family: "Anime Ace v05";
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    height: 140px;
+    width: 100%;
+    background: #FE1717;
+}
+
+header img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 29px;
+    margin-right: 10px;
+    width: 98px;
+    height: 131px;
+}
+
+.header_name {
+    color: black;
+    width: 330px;
+    height: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 27px;
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.75);
+}
+
+nav {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1410px;
+    width: 100%;
+    height: 120px;
+}
+
+.nav_name {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Anime Ace v05';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    text-shadow: 0px 2px 9px rgba(0, 0, 0, 0.75);
+    border-bottom: 5px solid #00000000;
+}
+
+.nav_name:hover {
+    border-bottom: 5px solid #0000007a;
+}
+
+
+
+
+.content_one {
+    display: block;
+
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+
+    margin-bottom: 0;
+    background-image: linear-gradient(180deg, #FE1717 0%, rgba(254, 23, 23, 0) 53.65%), url(./img/Fon5.jpg);
+}
+
+.content_one_div {
+    padding-top: 95px;
+    text-align: center;
+    line-height: 1.5;
+    float: right;
+    height: 100%;
+    width: 65%;
+    align-items: center;
+}
+
+.content2_one_div {
+    margin-right: 60px;
+    padding-top: 35px;
+    text-align: center;
+    line-height: 1.5;
+    float: right;
+    height: 80%;
+    width: 60%;
+    align-items: center;
+}
+
+
+.product-item {
+    box-shadow: 8px 40px 8px 0px #00000080;
+
+    font-family: 'Anime Ace v05';
+    margin-bottom: 60px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 300px;
+    height: 383px;
+    text-align: center;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%),
+        linear-gradient(0deg, #f34646, #F00000);
+
+    transition: .3s ease-in;
+}
+
+.product-item img {
+    /* height: 190px;*/
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 23px;
+    margin-top: 32px;
+}
+
+.product-list {
+    padding-top: 8px;
+    height: 132px;
+    border-radius: 0px 0px 20px 20px;
+    width: 300px;
+    background: #000000;
+
+}
+
+.product-list h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 252px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    ;
+}
+
+.price {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+    color: #FFFFFF;
+    display: block;
+
+}
+
+.button {
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    width: 187px;
+    height: 37px;
+    background: #FE0000;
+    color: #000000;
+    line-height: 37px;
+    transition: .3s ease-in;
+}
+.button:hover{
+    background: #eb2727;
+    border-radius: 10px;
+    color: white;
+}
+#content_one_div_h {
+    font-size: 72px;
+    margin-right: 40px;
+}
+#contents_one_div_h {
+margin-right: 160px;
+   text-align: center;
+    width: 50%;
+    display:inline-block;
+    float: right;
+    font-size: 72px;
+
+}
+
+.content_one_div p {
+
+    font-size: 48px;
+}
+
+.content_two {
+    margin-top: 0;
+    display: block;
+    height: 1080px;
+    background-size: cover;
+    padding: 0;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0) 47.92%, #FD1112 100%), url(./img/fon7.jpg);
+}
+
+.content_two_div {
+
+    height: 100%;
+    width: 100%;
+    padding-top: 55px;
+
+}
+
+#content_two_div_h {
+    font-style: normal;
+
+    font-size: 72px;
+    margin-left: 170px;
+
+    border-radius: 0px;
+    color: black;
+    margin-bottom: 45px;
+}
+
+.content_two_div_div {
+    margin-bottom: 65px;
+    height: 140px;
+}
+
+.content_two_div_divv {
+    display: flex;
+    float: left;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 30px;
+    width: 840px;
+    height: 140px;
+    background: rgba(14, 12, 12, 0.658);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 100px 100px 0px;
+    padding-left: 17px;
+    margin-right: 9px;
+    text-shadow:
+        -0 -2px 1px #000000,
+        0 -2px 1px #000000,
+        -0 2px 1px #000000,
+        0 2px 1px #000000,
+        -2px -0 1px #000000,
+        2px -0 1px #000000,
+        -2px 0 1px #000000,
+        2px 0 1px #000000,
+        -1px -2px 1px #000000,
+        1px -2px 1px #000000,
+        -1px 2px 1px #000000,
+        1px 2px 1px #000000,
+        -2px -1px 1px #000000,
+        2px -1px 1px #000000,
+        -2px 1px 1px #000000,
+        2px 1px 1px #000000,
+        -2px -2px 1px #000000,
+        2px -2px 1px #000000,
+        -2px 2px 1px #000000,
+        2px 2px 1px #000000,
+        -2px -2px 1px #000000,
+        2px -2px 1px #000000,
+        -2px 2px 1px #000000,
+        2px 2px 1px #000000;
+}
+
+.content_two_div_divvv {
+    height: 140px;
+    display: flex;
+    float: left;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-shadow:
+        -0 -2px 1px #000000,
+        0 -2px 1px #000000,
+        -0 2px 1px #000000,
+        0 2px 1px #000000,
+        -2px -0 1px #000000,
+        2px -0 1px #000000,
+        -2px 0 1px #000000,
+        2px 0 1px #000000,
+        -1px -2px 1px #000000,
+        1px -2px 1px #000000,
+        -1px 2px 1px #000000,
+        1px 2px 1px #000000,
+        -2px -1px 1px #000000,
+        2px -1px 1px #000000,
+        -2px 1px 1px #000000,
+        2px 1px 1px #000000,
+        -2px -2px 1px #000000,
+        2px -2px 1px #000000,
+        -2px 2px 1px #000000,
+        2px 2px 1px #000000,
+        -2px -2px 1px #000000,
+        2px -2px 1px #000000,
+        -2px 2px 1px #000000,
+        2px 2px 1px #000000;
+}
+
+.content_two_div p {
+
+    color: white;
+    display: table;
+}
+
+
+.prochee {
+    margin-top: 65px;
+    padding: 0;
+
+    float: right;
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.prochee_block {
+    padding: 0;
+    display: block;
+    width: 818px;
+    height: 483px;
+
+}
+
+.prochee_text {
+    width: 722px;
+    font-family: Anime Ace v05;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.prochee_reshim {
+    margin-left: 205px;
+    margin-top: 20px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.prochee_opis {
+    margin-left: 205px;
+    ;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.karta {
+    width: 722px;
+    border-radius: 20px;
+}
+
+
+.tops{
+    height: 1125px;
+    margin-right: 150px;
+    width: 50%;
+    display:inline-block;
+    float: right;
+
+}
+.topsblock{
+    box-shadow: 8px 8px 5px 0px #00000080;
+   border-radius: 20px;
+    margin-top: 25px;
+    width: 80%;
+    height: 350px;  
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, #F00000, #F00000);
+    
+    display: block;
+}
+
+.topblocks{
+
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom:auto ;
+font-style: normal;
+font-weight: 300;
+font-size: 56px;
+
+}
+
+.topblocks p{
+   text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ transition: 0.6s;
+}
+.topblocks p:hover{
+    font-size: 60px;
+}
+footer {
+    padding: 0;
+    display: flex;
+    background-size: cover;
+    height: 200px;
+
+    background: linear-gradient(180deg, #FF0F10 0%, rgba(232, 18, 18, 0.75) 100%), rgba(253, 28, 28, 0.75);
+
+    justify-content: space-between;
+}
+
+footer div {
+    height: 170px;
+    line-height: 27px;
+    font-size: 35px;
+}
+
+footer div a img {
+    margin-left: 16px;
+
+    width: 90px;
+    height: 90px;
+}
+
+footer div a {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (max-width: 1700px) {
+    html {
+        zoom: 0.80;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    html {
+        zoom: 0.70;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    html {
+        zoom: 0.60;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    html {
+        zoom: 0.50;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    html {
+        zoom: 0.40;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    html {
+        zoom: 0.39;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    html {
+        zoom: 0.2;
+    }
+}
+
+@font-face {
+    font-family: "Anime Ace v05";
+    src: url("../fonts//anime-ace-v05.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/anime-ace-v05.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("../fonts/anime-ace-v05.otf") format("opentype"),
+        /* Open Type Font */
+        url("../fonts/anime-ace-v05.svg") format("svg"),
+        /* Legacy iOS */
+        url("../fonts/anime-ace-v05.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("../fonts/anime-ace-v05.woff") format("woff"),
+        /* Modern Browsers */
+        url("../fonts/anime-ace-v05.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
